@@ -13,7 +13,7 @@ steps:
 - script: echo Hello, world!
   displayName: 'Jenkins Queue Job'
 
-- task: JenkinsQueueJob@1
+- task: JenkinsQueueJob@2
   inputs:
     serverEndpoint: 'jenkinsService'
     jobName: 'pipeline1'
